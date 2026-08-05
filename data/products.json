@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 16 Pro",
+    "category": "phones",
+    "brand": "Apple",
+    "price": 4699,
+    "stock": 18,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab",
+    "description": "Smartphone Apple 256GB avec écran OLED et puce A18 Pro."
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S25 Ultra",
+    "category": "phones",
+    "brand": "Samsung",
+    "price": 4299,
+    "stock": 22,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+    "description": "Smartphone Android premium avec appareil photo 200 MP."
+  },
+  {
+    "id": 3,
+    "name": "Redmi Note 14 Pro",
+    "category": "phones",
+    "brand": "Xiaomi",
+    "price": 1199,
+    "stock": 40,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "description": "Smartphone performant avec écran AMOLED 120 Hz."
+  },
+  {
+    "id": 4,
+    "name": "MacBook Pro 16",
+    "category": "laptops",
+    "brand": "Apple",
+    "price": 9999,
+    "stock": 8,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8",
+    "description": "PC portable avec puce M4 Pro pour les professionnels."
+  },
+  {
+    "id": 5,
+    "name": "Dell XPS 15",
+    "category": "laptops",
+    "brand": "Dell",
+    "price": 5899,
+    "stock": 12,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+    "description": "Ordinateur portable Windows avec écran OLED."
+  },
+  {
+    "id": 6,
+    "name": "Lenovo Legion 5",
+    "category": "laptops",
+    "brand": "Lenovo",
+    "price": 4399,
+    "stock": 15,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    "description": "PC portable gaming Ryzen 7 et RTX 4060."
+  },
+  {
+    "id": 7,
+    "name": "HP ProDesk 400",
+    "category": "desktops",
+    "brand": "HP",
+    "price": 2499,
+    "stock": 20,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b",
+    "description": "Ordinateur de bureau idéal pour le travail."
+  },
+  {
+    "id": 8,
+    "name": "Dell OptiPlex",
+    "category": "desktops",
+    "brand": "Dell",
+    "price": 2799,
+    "stock": 14,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+    "description": "PC de bureau compact pour les entreprises."
+  },
+  {
+    "id": 9,
+    "name": "iMac 24",
+    "category": "desktops",
+    "brand": "Apple",
+    "price": 6399,
+    "stock": 6,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc",
+    "description": "Ordinateur tout-en-un avec écran Retina 4.5K."
+  },
+  {
+    "id": 10,
+    "name": "Logitech MX Master 3S",
+    "category": "peripherals",
+    "brand": "Logitech",
+    "price": 329,
+    "stock": 50,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
+    "description": "Souris sans fil haut de gamme."
+  },
+  {
+    "id": 11,
+    "name": "Keychron K2",
+    "category": "peripherals",
+    "brand": "Keychron",
+    "price": 279,
+    "stock": 35,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+    "description": "Clavier mécanique Bluetooth RGB."
+  },
+  {
+    "id": 12,
+    "name": "Samsung Odyssey G5",
+    "category": "peripherals",
+    "brand": "Samsung",
+    "price": 999,
+    "stock": 16,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+    "description": "Écran gaming 32 pouces QHD 165 Hz."
+  },
+  {
+    "id": 13,
+    "name": "LG Smart Refrigerator",
+    "category": "home_appliances",
+    "brand": "LG",
+    "price": 4999,
+    "stock": 5,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+    "description": "Réfrigérateur connecté à faible consommation."
+  },
+  {
+    "id": 14,
+    "name": "Samsung Washing Machine",
+    "category": "home_appliances",
+    "brand": "Samsung",
+    "price": 1899,
+    "stock": 10,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1",
+    "description": "Machine à laver 9 kg avec technologie EcoBubble."
+  },
+  {
+    "id": 15,
+    "name": "Bosch Dishwasher",
+    "category": "home_appliances",
+    "brand": "Bosch",
+    "price": 2399,
+    "stock": 7,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1",
+    "description": "Lave-vaisselle silencieux et économique."
+  }
+]
