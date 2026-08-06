@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <p
+        style="background-color: rgb(245, 245, 245);margin: 5%;max-width: 50%;padding: 1%;font-family: Arial, Helvetica, sans-serif;text-align: left;">
+    </p>
+
+    <script>
+        function cleanMessage(message) {
+            let text = String(message);
+
+            // Convert escaped new lines
+            text = text.replace(/\\n/g, '\n');
+
+            // Remove markdown bold / italic
+            text = text.replace(/\*\*(.*?)\*\*/g, '$1');
+            text = text.replace(/__(.*?)__/g, '$1');
+
+            // Remove invisible characters
+            text = text.replace(/\u00A0/g, ' ');
+            text = text.replace(/\u202F/g, ' ');
+
+            // Remove spaces before new lines
+            text = text.replace(/[ \t]+\n/g, '\n');
+
+            // Remove multiple spaces
+            text = text.replace(/[ ]{2,}/g, ' ');
+
+            // Remove too many empty lines
+            text = text.replace(/\n{3,}/g, '\n\n');
+
+            return text.trim();
+        }
+
+        const msg = "عسلامة 👋 نجم نعاونك في اختيار لابتوب. باش نلقا لك الأنسب، نحتاج شوية تفاصيل:\n\n1. شنوّة الميزانية اللي حاطّها للشراء؟\n2. باش تستعمل اللاب توب في شنوّة؟ (مثلاً: الدراسة، العمل، برمجة، تصميم جرافيك، ألعاب…)\n3. عندك علامة تجارية مفضلة أو شيء ما تحبّوش؟\n4. هل تفضّل شاشة بحجم معيّن أو سعة تخزين (SSD / HDD) أو رامات معينة؟\n\nنستنى إجاباتك باش نعرض لك الخيارات المناسبة."
+
+        const message = cleanMessage(msg)
+
+        document.querySelector("p").innerText = message
+
+    </script>
+
+</body>
+
+</html>
